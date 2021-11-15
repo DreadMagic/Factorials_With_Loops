@@ -13,7 +13,7 @@ public class Factorial {
             e+=1.0/calcFactorial(i);
             i++;
         }
-        return ((int)(e*1000)/1)/1000.0;
+        return (int)(e*1000)/1000.0;
     }
     public double calcEX(int x){
         double ex = 1;
@@ -24,7 +24,7 @@ public class Factorial {
             ex += 1.0*Math.pow(x,i)/calcFactorial(i);
             i++;
         }
-        return ((int)(ex*1000)/1)/1000.0;
+        return (int)(ex*1000)/1000.0;
     }
     public static void main(String[] args) {
         Factorial m = new Factorial();
